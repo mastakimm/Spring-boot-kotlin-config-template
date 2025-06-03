@@ -10,7 +10,7 @@ import java.util.TimeZone;
 
 @SpringBootApplication
 @EnableScheduling
-public class PortfolioApplication {
+public class SomeApplicationName {
 
 	@PostConstruct
 	public void init(){
@@ -18,7 +18,7 @@ public class PortfolioApplication {
 		System.out.println("Spring boot application running in UTC timezone :" + new Date());
 	}
 	public static void main(String[] args) {
-		SpringApplication.run(PortfolioApplication.class, args);
+		SpringApplication.run(SomeApplicationName.class, args);
 	}
 
 }
